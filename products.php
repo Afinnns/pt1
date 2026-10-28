@@ -53,25 +53,24 @@ ob_start();
                 </div>
  
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                    <label for="model" class="form-label">Model <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_model" id="model" class="form-select" required>
+                        <option value="">Select Model</option>
+                        <option value="Backpack">Backpack</option>
+                        <option value="Crossbody / Sling">Crossbody / Sling</option>
+                        <option value="Laptop Bag">Laptop Bag</option>
+
                     </select>
                 </div>
- 
+
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                    <label for="color" class="form-label">Color <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_color" id="color" class="form-select" required>
+                        <option value="">Select Color</option>
+                        <option value="Black">Black</option>
+                        <option value="Grey">Grey</option>
+                        <option value="Navy">Navy</option>
+                        <option value="Olive Green">Olive Green</option>
                     </select>
                 </div>
                  
